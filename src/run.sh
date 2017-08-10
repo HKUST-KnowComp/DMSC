@@ -1,0 +1,1 @@
+THEANO_FLAGS="floatX=float32,device=gpu0,cuda.root=/usr/local/cuda,on_unused_input=ignore,optimizer=fast_compile"  python DMSCMC.py --emb  ../data/tripadvisor/embs  --train  ../data/tripadvisor/train  --dev  ../data/tripadvisor/dev --test  ../data/tripadvisor/test --save ../model/base  --aspect_seeds ../data/tripadvisor/aspect.10.words --load ../model/base
