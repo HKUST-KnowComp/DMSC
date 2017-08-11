@@ -3,6 +3,7 @@ This repository is for our EMNLP17 paper "Document-Level Multi-Aspect Sentiment 
 
 ## Setup
 cd src
+
 export PYTHONPATH=/path/to/DMSCMC/src
 
 ## Usage
