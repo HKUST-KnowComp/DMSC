@@ -2,6 +2,8 @@
 This repository is for our EMNLP17 paper "Document-Level Multi-Aspect Sentiment Classification as Machine Comprehension". We thank Tao Lei as our code is developed based on [his code](https://github.com/taolei87/rcnn/tree/master/code).
 
 ## Setup
+git clone git@github.com:HKUST-KnowComp/DMSCMC.git
+
 cd src
 
 export PYTHONPATH=/path/to/DMSCMC/src
@@ -15,6 +17,7 @@ THEANO_FLAGS="floatX=float32,device=gpu0,cuda.root=/usr/local/cuda,on_unused_inp
 
 ## Environment
 * Python 2.7 
+* CUDA
 * [Theano](http://deeplearning.net/software/theano/) >= 0.7
 * [Numpy](http://www.numpy.org) 
 
